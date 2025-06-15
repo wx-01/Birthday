@@ -3,8 +3,8 @@ import { cn } from "@/lib/utils";
 import { MenuIcon, X } from "lucide-react";
 
 const navItems = [
-  { name: "Wish someone", href: "/" },
-  { name: "Screens", href: "/wish" },
+  { name: "Wish someone", href: "#" },
+  { name: "Screens", href: "#" },
   { name: "Creator", href: "#" },
 
 ];
