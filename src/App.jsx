@@ -15,9 +15,8 @@ export default function App() {
       <Routes>
         <Route
           path="/"
-          element={  <Home />}
+          element={  <Wish />}
         />
-        
         <Route
           path="/wish"
           element={  <Wish />}
