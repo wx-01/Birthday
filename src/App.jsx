@@ -19,7 +19,7 @@ export default function App() {
         />
         <Route
           path="/wish"
-          element={  <Wish />}
+          element={  <Home />}
         />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         {/* Add more routes as needed */}
