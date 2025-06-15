@@ -5,7 +5,7 @@ import { MenuIcon, X } from "lucide-react";
 const navItems = [
   { name: "Wish someone", href: "/" },
   { name: "Screens", href: "/wish" },
-  { name: "Creator", href: "https://portfolio-thel.onrender.com/" },
+  { name: "Creator", href: "#" },
 
 ];
 
