@@ -1,8 +1,9 @@
 import React from 'react'
   const imageOptions = [
-    { id: 1, url: "/image1.PNG", label: "Option 1" },
-    { id: 2, url: "/image2.jpg", label: "Option 2" },
-    { id: 3, url: "/image3.jpg", label: "Option 3" },
+    { id: 1, url: "/image1.PNG", label: "Birthday Confetti" },
+    { id: 2, url: "/image2.PNG", label: "Birthday Cakes" },
+    { id: 3, url: "/image3.PNG", label: "Sleeping Egg" },
+      { id: 4, url: "/image4.PNG", label: "Chick & chick" },
   ];
 
 const CardSection = (handleImageSelect) => {

@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Wish from './pages/Wish';
+import Screen from './pages/Screen';
 
 
 const Spline = React.lazy(() => import('@splinetool/react-spline'));
@@ -15,11 +16,15 @@ export default function App() {
       <Routes>
         <Route
           path="/"
-          element={  <Wish />}
+          element={  <Home />}
         />
         <Route
           path="/wish"
-          element={  <Home />}
+          element={  <Wish />}
+        />
+        <Route
+          path="/screen"
+          element={  <Screen />}
         />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         {/* Add more routes as needed */}

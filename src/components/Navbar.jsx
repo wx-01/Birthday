@@ -4,7 +4,7 @@ import { MenuIcon, X } from "lucide-react";
 
 const navItems = [
   { name: "Wish someone", href: "/" },
-  { name: "Screens", href: "/wish" },
+  { name: "Screens", href: "/screen" },
   { name: "Creator", href: "https://portfolio-thel.onrender.com/" },
 
 ];
@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a
           className="text-xl font-bold text-primary flex items-center"
-          href="/wish"
+          href="/"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground">Wish </span>Web
@@ -61,7 +61,7 @@ const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-purple-500 text-glow1 hover:text-cyan-500 transition-colors duration-300"
             >
               {item.name}
             </a>
