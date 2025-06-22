@@ -4,6 +4,7 @@ import Wish from "./Wish";
 const Screen = () => {
   const [selectedCard, setSelectedCard] = useState(null);
 
+  
   // Array of card objects with different Spline scenes
   const cards = [
     {
@@ -41,17 +42,15 @@ const Screen = () => {
     
   ];
 
+  
   const handleCardClick = (card) => {
     setSelectedCard(card);
   };
 
-  const handleBackToGrid = () => {
-    setSelectedCard(null);
-  };
 
   // If a card is selected, render the Wish component with props
   if (selectedCard) {
-    return <Wish cardData={selectedCard} onBack={handleBackToGrid} />;
+    return <Wish cardData={selectedCard}  />;
   }
 
   // Render the grid of cards

@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Wish from './pages/Wish';
 import Screen from './pages/Screen';
+import SharedWish from './pages/SharedWish';
 
 
 const Spline = React.lazy(() => import('@splinetool/react-spline'));
@@ -25,6 +26,10 @@ export default function App() {
         <Route
           path="/screen"
           element={  <Screen />}
+        />
+         <Route
+          path="/shared-wish/:wishId"
+          element={  <SharedWish />}
         />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         {/* Add more routes as needed */}

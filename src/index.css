@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Preline UI */
+@source "./node_modules/preline/dist/*.js";
+@import "./node_modules/preline/variants.css";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
+
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
